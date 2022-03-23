@@ -31,16 +31,3 @@
       | title     | 500    | success | null | null      | 200      |
       | title     | 1      | success | null | null      | 200      |
       | title     | 99     | success | null | null      | 200      |
-
-  Структура сценария: Ответ в формате JSON. [type, number] = [<type>, <number>]
-    * GET fish-text. Format .json
-      | Parameter          | Value       |
-      | HTTP Code          | <httpCode>  |
-      | type               | <type>      |
-      | number             | <number>    |
-      | response.status    | <status>    |
-      | response.textError | <text>      |
-      | response.errorCode | <errorCode> |
-    Примеры:
-      | type      | number | status  | text | errorCode | httpCode |
-      | sentence  | 1      | success | null | null      | 200      |
